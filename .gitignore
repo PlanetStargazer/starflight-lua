@@ -1,0 +1,26 @@
+# Proprietary game binaries (place your own Starflight COM files in games/sf1/)
+games/**/*.COM
+games/**/*.com
+games/**/*.zip
+games/**/*.bin
+*.COM
+*.com
+*.zip
+
+# Preserve folder structure
+!games/sf1/.gitkeep
+
+# LÖVE / save files / logs
+save_*.COM
+save_*.com
+slot*_LOG.txt
+settings.txt
+*.tmp
+*.save
+*.swp
+*~
+.DS_Store
+
+# Test artifacts
+shot*.png
+test*.png
